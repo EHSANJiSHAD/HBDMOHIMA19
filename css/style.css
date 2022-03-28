@@ -1,0 +1,143 @@
+/* header font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Wallpoet&display=swap');
+
+
+
+body{
+    background-color: black
+}
+.header{
+    position: sticky;
+    top: 0;
+    /* font-family: 'Monoton', cursive; */
+    /* position:fixed ; */
+    width: 99%;
+    background-color: rgb(247, 75, 104);
+    font-family: 'Wallpoet', cursive;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    box-shadow: -5px -5px 8px 2px #33292c, 5px 5px 10px 2px #424041;
+    transition: .5s;
+}
+.header:hover{
+    transform: scale(1.02);
+    box-shadow: -10px -10px 10px #4d393f, 10px 10px 10px #2b2a2a;
+}
+
+.header-text{
+    color: rgb(247, 75, 104);
+    text-align: center;
+    letter-spacing: .1px;
+}
+
+.text{
+    font-size: 14px;
+    font-family: 'Monoton', cursive;
+    padding: 5px;
+    /* position:fixed ; */
+    width: 99%;
+    font-weight: 800;
+    background-color: rgb(247, 75, 104);
+    font-family: 'Wallpoet', cursive;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    /* box-shadow: -5px -5px 8px 2px #33292c, 5px 5px 10px 2px #424041; */
+    transition: .5s;
+}
+/* album image  */
+
+.album-image img{
+    border-radius: 25px;
+    border: 3px solid rgb(247, 75, 104);
+    transition: 1s;
+    
+    
+}
+
+.album-image:hover img{
+    transform: scale(2);
+    box-shadow: -5px -5px 8px 2px #e03f6f, 5px 5px 10px 2px #d3223f;
+    
+}
+
+.image-text{
+    position: absolute;
+    font-family: 'Wallpoet', cursive;
+    /* top: 0; */
+    display: none;
+    border-radius: 20px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    /* font-weight: 600; */
+    background-color: rgba(247, 75, 104, 0.164);
+    width: 80px;
+    text-align: center;
+    
+    
+}
+
+.album-image:hover  .image-text{
+    display: block;
+    
+    /* transform: scale(2); */
+    
+}
+.btn a{
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #d3223f;
+
+
+}
+
+.btn a:hover{
+    /* transform: scale(1.5); */
+    text-align: center;
+    color: #c00424;
+
+}
+
+
+/* card style  starts*/
+.card{
+    
+}
+.card-design{
+    background-color: transparent;
+    border: none;
+    border-radius: 15%;
+    /* box-shadow: -10px -10px 15px #edeff1, 10px 10px 15px #cacfd8; */
+    transition: .5s;
+}
+.card-design:hover{
+    box-shadow: -5px -5px 15px rgb(247, 75, 104), 5px 5px 15px rgb(238, 54, 85);
+    transform: scale(1.02);
+}
+.card-design video{
+    
+    height: 250px;
+    width: 280px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: transparent;
+    /* box-shadow: -10px -10px 15px #ce146b, 10px 10px 15px #35071a; */
+    
+    
+}
+
+.card-title{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-body2{
+    background-color: rgb(247, 75, 104);
+}
+
